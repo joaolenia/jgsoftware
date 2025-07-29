@@ -1,69 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JG Soluções em Software</title>
-  <link rel="stylesheet" href="style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <script src="./assets/js/script.js" defer></script>
 </head>
+
 <body>
-<header class="cabecalho">
-  <div class="cabecalho-container">
-    <div class="logo">
-      <img src="Logo.png" alt="Logo JG Soluções em Software">
-    </div>
-    <div class="texto-cabecalho">
-      <h1 class="slogan">CADA NEGÓCIO É ÚNICO.<br>SEU SISTEMA TAMBÉM!</h1>
-      <p class="subtitulo">INOVAÇÃO QUE MOVE SEU NEGÓCIO</p>
-    </div>
-  </div>
-</header>
 
+  <header class="hero">
+    <div class="container hero-container">
+      <div class="hero-logo">
+        <img src="./assets/img/Logo.png" alt="Logo JG Soluções em Software">
+      </div>
+      <div class="hero-text">
+        <h1 class="slogan">CADA NEGÓCIO É ÚNICO.<br>SEU SISTEMA TAMBÉM!</h1>
+        <p class="subtitulo">INOVAÇÃO QUE MOVE SEU NEGÓCIO</p>
+      </div>
+    </div>
+  </header>
 
-  <main class="conteudo">
-    <section class="sobre">
-      <h2>Quem Somos</h2>
-      <p>
-        A <strong>JG Soluções em Software</strong> é especializada em desenvolvimento de sistemas <strong>web, mobile e desktop</strong> sob medida para sua empresa. 
-        Com tecnologia de ponta, oferecemos soluções digitais modernas, seguras e de alto desempenho, personalizadas para cada tipo de negócio.
-      </p>
-      <p>
-        Atendemos empresas e profissionais de <strong>Cruz Machado</strong>, <strong>União da Vitória</strong>, <strong>Vale do Iguaçu</strong> e região.
-      </p>
+  <main>
+    <section id="sobre" class="about-section animated-section">
+      <div class="container">
+        <h2>Quem Somos</h2>
+        <div class="about-text">
+          <p>
+            A <strong>JG Soluções em Software</strong> nasceu com a missão de trazer inovação e eficiência para empresas
+            de todos os portes. Desenvolvemos sistemas <strong>web, mobile e desktop</strong> personalizados, com foco
+            em praticidade, segurança e performance.
+          </p>
+          <p>
+            Contamos com um time especializado em transformar necessidades reais em soluções digitais modernas,
+            escaláveis e intuitivas. Com atendimento humanizado e próximo, acompanhamos seu projeto do início ao fim,
+            garantindo que cada detalhe seja pensado para o seu negócio.
+          </p>
+          <p>
+            Atendemos empresas de <strong>Cruz Machado</strong>, <strong>União da Vitória</strong>, <strong>Vale do
+              Iguaçu</strong> e toda a região sul do Paraná. Nosso compromisso é impulsionar sua produtividade com
+            tecnologia sob medida.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section class="diferenciais">
-      <h2>Por que escolher a JG?</h2>
-      <ul>
-        <li>✔️ Sistemas personalizados sob medida</li>
-        <li>✔️ Atendimento ágil e humanizado</li>
-        <li>✔️ Suporte completo e atualizações</li>
-        <li>✔️ Experiência em diversos segmentos</li>
-        <li>✔️ Interface moderna, simples e eficaz</li>
-      </ul>
+
+    <section id="diferenciais" class="features-section animated-section">
+      <div class="container">
+        <h2>Por que escolher a JG?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-drafting-compass"></i>
+            <h3>Sistemas Personalizados</h3>
+            <p>Soluções desenvolvidas do zero para atender às suas necessidades específicas.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-headset"></i>
+            <h3>Atendimento Humanizado</h3>
+            <p>Proximidade e agilidade para entender e resolver suas demandas.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-cogs"></i>
+            <h3>Suporte Completo</h3>
+            <p>Garantimos atualizações, manutenção e todo o suporte necessário.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-briefcase"></i>
+            <h3>Experiência de Mercado</h3>
+            <p>Expertise em diversos segmentos para oferecer a melhor solução.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-desktop"></i>
+            <h3>Interface Moderna</h3>
+            <p>Design intuitivo, simples e eficaz para a melhor experiência de uso.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Segurança e Performance</h3>
+            <p>Sistemas robustos, seguros e otimizados para alto desempenho.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="contato">
-      <h2>Fale com a gente</h2>
-      <ul>
-        <li><strong>WhatsApp:</strong> <a href="https://wa.me/554298259010" target="_blank">(42) 9825-9010</a></li>
-        <li><strong>Instagram:</strong> <a href="https://instagram.com/jg_solucoesemsoftware" target="_blank">@jg_solucoeesemsoftware</a></li>
-        <li><strong>Facebook:</strong> <a href="https://facebook.com/jgsolucoesemsoftware" target="_blank">JG Soluções em Software</a></li>
-        <li><strong>Email:</strong> <a href="mailto:jgsolucoesemsoftware@gmail.com">jgsolucoesemsoftware@gmail.com</a></li>
-      </ul>
+    <section id="cta" class="cta-section animated-section">
+      <div class="container">
+        <h3>Pronto para transformar seu negócio?</h3>
+        <p>Solicite um orçamento sem compromisso e veja como a tecnologia pode impulsionar seus resultados.</p>
+        <a class="cta-button" href="https://wa.me/554298259010?text=Ol%C3%A1!+Gostaria+de+solicitar+um+or%C3%A7amento."
+          target="_blank">
+          <i class="fab fa-whatsapp"></i> Solicitar Orçamento Agora
+        </a>
+      </div>
     </section>
 
-    <div class="orcamento">
-      <p><strong>Solicite um orçamento agora mesmo</strong> e transforme seu negócio com tecnologia sob medida.</p>
-      <a class="botao-orcamento" href="https://wa.me/554298259010" target="_blank">📲 Solicitar Orçamento</a>
-    </div>
+    <section id="contato" class="contact-section animated-section">
+      <div class="container">
+        <h2>Fale Conosco</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Vamos Conversar?</h3>
+            <p>Estamos prontos para ouvir sobre seu projeto e encontrar a melhor solução tecnológica para sua empresa.
+              Entre em contato por um dos canais ao lado.</p>
+            <p>Respondemos rapidamente!</p>
+          </div>
+          <div class="contact-links">
+            <a href="https://wa.me/554298259010" target="_blank" class="contact-button">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>(42) 99825-9010</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/jg_solucoesemsoftware" target="_blank" class="contact-button">
+              <i class="fab fa-instagram"></i>
+              <div>
+                <strong>Instagram</strong>
+                <span>@jg_solucoesemsoftware</span>
+              </div>
+            </a>
+            <a href="https://facebook.com/jgsolucoesemsoftware" target="_blank" class="contact-button">
+              <i class="fab fa-facebook"></i>
+              <div>
+                <strong>Facebook</strong>
+                <span>JG Soluções em Software</span>
+              </div>
+            </a>
+            <a href="mailto:jgsolucoesemsoftware@gmail.com" class="contact-button">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>jgsolucoesemsoftware@gmail.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="rodape">
-    <p>© 2025 JG Soluções em Software - www.jgsolucoesemsoftware.com.br</p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 JG Soluções em Software - Todos os direitos reservados.</p>
+      <p><a href="https://www.jgsolucoesemsoftware.com.br">www.jgsolucoesemsoftware.com.br</a></p>
+    </div>
   </footer>
+
 </body>
+
 </html>
